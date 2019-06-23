@@ -1,1 +1,19 @@
 // Mixins Here
+
+.flex-boom(@display, @flex-direction, @align-item){
+    display: @display;
+    flex-direction: @flex-direction;
+    align-items: @align-item;
+}
+
+.h1-style {
+    font-size: 3.6rem;
+    padding: 20px 0;
+}
+
+.custom-button(@padding, @fontcolor, @backgroundcolor, @borderradius){
+    padding: @padding;
+    color: @fontcolor;
+    background-color: @backgroundcolor;
+    border-radius: @borderradius;
+}
