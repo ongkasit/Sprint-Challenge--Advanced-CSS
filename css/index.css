@@ -284,6 +284,7 @@ footer {
   .home .walk .walk-text .btn button {
     padding: 18px 200px;
     font-size: 1.6rem;
+    margin-bottom: 20px;
   }
 }
 @media (max-width: 500px) {
