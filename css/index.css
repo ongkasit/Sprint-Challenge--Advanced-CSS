@@ -327,3 +327,13 @@ footer {
   height: auto;
   border-radius: 10px;
 }
+.login-box {
+  background: #F6F6F6;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+}
+.login-box h1 {
+  font-size: 2.2rem;
+}
+.right-box .signinwith {
+  font-size: 2rem;
+}
