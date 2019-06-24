@@ -11,9 +11,15 @@
     padding: 20px 0;
 }
 
-.custom-button(@padding, @fontcolor, @backgroundcolor, @borderradius){
+.custom-button(@padding, @fontcolor, @fontsize, @backgroundcolor, @borderradius){
     padding: @padding;
     color: @fontcolor;
+    font-size: @fontsize;
     background-color: @backgroundcolor;
     border-radius: @borderradius;
+}
+
+.on-hover {
+    color: black;
+    background-color: white;
 }
