@@ -284,15 +284,16 @@ footer {
 .home .walk .walk-text p {
   margin-bottom: 26px;
 }
-.home .walk .walk-text .btn button {
+.home .walk .walk-text .btn a {
   padding: 8px 20px;
   color: white;
   font-size: 1.8rem;
   background-color: black;
   border-radius: 8px;
+  text-decoration: none;
 }
 @media (max-width: 500px) {
-  .home .walk .walk-text .btn button {
+  .home .walk .walk-text .btn a {
     padding: 18px 200px;
     font-size: 1.6rem;
     margin-bottom: 20px;
@@ -304,7 +305,7 @@ footer {
     justify-content: center;
   }
 }
-.home .walk .walk-text .btn button:hover {
+.home .walk .walk-text .btn a:hover {
   color: black;
   background-color: white;
 }

@@ -102,9 +102,10 @@
       }
 
       .btn {
-        button {
+        a {
           .custom-button(8px 20px, white, 1.8rem, black, 8px);
-
+          text-decoration: none;
+          
           @media @phone {
             padding: 18px 200px;
             font-size: 1.6rem;
@@ -118,7 +119,7 @@
           
          }
 
-        button:hover {
+        a:hover {
           .on-hover();
         }
       }
