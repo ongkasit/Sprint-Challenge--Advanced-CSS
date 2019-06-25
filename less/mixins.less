@@ -1,1 +1,25 @@
 // Mixins Here
+
+.flex-boom(@display, @flex-direction, @align-item){
+    display: @display;
+    flex-direction: @flex-direction;
+    align-items: @align-item;
+}
+
+.h1-style {
+    font-size: 3.6rem;
+    padding: 20px 0;
+}
+
+.custom-button(@padding, @fontcolor, @fontsize, @backgroundcolor, @borderradius){
+    padding: @padding;
+    color: @fontcolor;
+    font-size: @fontsize;
+    background-color: @backgroundcolor;
+    border-radius: @borderradius;
+}
+
+.on-hover {
+    color: black;
+    background-color: white;
+}
